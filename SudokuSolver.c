@@ -44,7 +44,7 @@ int main()
     {
         while(d==0)
         {
-            printf("\nInput the position of the element which you wanna change\n");
+            printf("\nInput the position coordinates of the element which you wanna change\n");
             scanf("%d", &e);
             scanf("%d", &f);
             e--;
