@@ -18,18 +18,18 @@ int main()
         f=8;
     if(c==5)
     {
-        long decimalnum, q, remainder;
+        long dec, q, rem;
         int i,j = 0;
         char hexa[100];
-        decimalnum=n;
-        q=decimalnum;
+        dec=n;
+        q=dec;
         while (q!=0)
         {
-            remainder = quotient%16;
-            if (remainder < 10)
-                hexa[j++]=48+remainder;
+            rem=q%16;
+            if (rem<10)
+                hexa[j++]=48+rem;
             else
-                hexa[j++]=55+remainder;
+                hexa[j++]=55+rem;
             q=q/16;
         }
 
