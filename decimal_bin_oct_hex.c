@@ -32,9 +32,7 @@ int main()
                 hexa[j++]=55+rem;
             q=q/16;
         }
-
-        // display integer into character
-        for (i = j-1; i >= 0; i--)
+        for (i=j-1;i>=0;i--)
                 printf("%c", hexa[i]);
         return 0;
     }
